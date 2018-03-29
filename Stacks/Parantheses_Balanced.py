@@ -26,13 +26,10 @@ for i in string:
 				
 			else:
 				if container.isEmpty():
-					print(container.item)
 					x=False
 					# break
 				else:
 					if is_i_equal_to_peek(i,container.peek()):
-
-						print("sad")
 						container.pop()
 					else:
 						x=False
@@ -46,7 +43,7 @@ for i in string:
 
 # print(container.item,s,t)			# container.pop()
 if container.isEmpty() and x:
-	print(x)
+	# print(x)
 	print("parantheses balanced")
 
 else:
