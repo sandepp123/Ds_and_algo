@@ -16,16 +16,14 @@ def is_i_equal_to_peek(first,second):
 for i in string:
 	if x ==True:
 		if not (i in '{}[]()'):
-			print(i in ['{}[]()'])
-			print("hello")
+			
+			
 
 			pass
 		else:
-			print("adskn")
-			if i in "[{(":
-				#print(True)
+			if i in "[{(":				
 				container.push(i)
-				#print(container.item)
+				
 			else:
 				if container.isEmpty():
 					print(container.item)
